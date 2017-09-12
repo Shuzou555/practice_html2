@@ -1,0 +1,85 @@
+/*-------  ここから共通のCSS  --------*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition:all.3s;
+  color: #323a45;
+}
+ a:hover{
+  color: #0dc0c0;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+   font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888;
+}
+
+/*-------  ここまで共通のCSS  --------*/
+header{
+  height:50px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom:solid 1px #eee;
+  line-height:50px;
+  z-index:10;
+}
+
+.contenar{
+  width: 1170px;
+  padding:0 15px;
+  margin:0 auto;
+}
+
+.logo{
+  float:left;
+}
+
+
+.heading_title{
+  color: #777;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.hedding-menu{
+  float:right;
+}
+
+.hedding-menu ul{
+  display: block;
+  list-style-type: disc;
+}
+.hedding-right li{
+  float:left;
+}
+
+.hedding-right a{
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+}
